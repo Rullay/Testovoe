@@ -9,7 +9,7 @@ public class Circle : Figure
 
     public Circle(int value) { radius = value; }
 
-    public override float PerimeterCalculation()
+    public  float PerimeterCalculation()
     {
         if (radius <= 0)
         {
@@ -18,7 +18,7 @@ public class Circle : Figure
         return 2 * radius * Mathf.PI;
     }
 
-    public override float AreaCalculation()
+    public  float AreaCalculation()
     {
         if (radius <= 0)
         {

@@ -31,6 +31,7 @@ public  class OOP : MonoBehaviour
     private void Start()
     {
         PaymentFigure.AddListener(RectangleON);
+        
     }
 
     void SquareON()

@@ -9,7 +9,7 @@ public class Square : Figure
     private int side;
     public Square(int value) { side = value; }
 
-    public override float PerimeterCalculation()
+    public  float PerimeterCalculation()
     {
         if (side <= 0)
         {
@@ -18,7 +18,7 @@ public class Square : Figure
         return side * 4;
     }
 
-    public override float AreaCalculation()
+    public  float AreaCalculation()
     {
         if (side <= 0)
         {

@@ -11,7 +11,7 @@ public class Rectangle : Figure
 
     public Rectangle(int value, int value_2) { sideA = value; sideB = value_2; }
 
-    public override float PerimeterCalculation()
+    public  float PerimeterCalculation()
     {
         if (sideA <= 0 || sideB <= 0)
         {
@@ -20,7 +20,7 @@ public class Rectangle : Figure
         return (sideA * 2) + (sideB * 2);
     }
 
-    public override float AreaCalculation()
+    public  float AreaCalculation()
     {
         if (sideA <= 0 || sideB <= 0)
         {

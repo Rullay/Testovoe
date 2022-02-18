@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,18 +53,18 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Include="Assets\Scripts\Hashing\User.cs" />
     <Compile Include="Assets\Scripts\MatrixCell.cs" />
+    <Compile Include="Assets\Scripts\Hashing\_Array.cs" />
     <Compile Include="Assets\Scripts\Algorithms.cs" />
     <Compile Include="Assets\Scripts\UIController.cs" />
     <Compile Include="Assets\Scripts\OOP\Circle.cs" />
-    <Compile Include="Assets\Scripts\DataHashing.cs" />
+    <Compile Include="Assets\Scripts\Hashing\DataHashing.cs" />
     <Compile Include="Assets\Scripts\OOP\Rectangle.cs" />
     <Compile Include="Assets\Scripts\Arrays.cs" />
     <Compile Include="Assets\Scripts\OOP\Square.cs" />
-    <Compile Include="Assets\Scripts\Figure.cs" />
+    <Compile Include="Assets\Scripts\OOP\Figure.cs" />
+    <Compile Include="Assets\Scripts\Hashing\HashTableUser.cs" />
     <Compile Include="Assets\Scripts\OOP\Rhombus.cs" />
     <Compile Include="Assets\Scripts\OOP\OOP.cs" />
   </ItemGroup>

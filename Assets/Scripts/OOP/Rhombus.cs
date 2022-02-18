@@ -10,7 +10,7 @@ public class Rhombus : Figure
 
     public Rhombus(int value, int value_2) { side = value; angle = value_2; }
 
-    public override float PerimeterCalculation()
+    public  float PerimeterCalculation()
     {
         if (side <= 0 || angle <= 0)
         {
@@ -19,7 +19,7 @@ public class Rhombus : Figure
         return side * 4;
     }
 
-    public override float AreaCalculation()
+    public  float AreaCalculation()
     {
         if (side <= 0 || angle <= 0)
         {
